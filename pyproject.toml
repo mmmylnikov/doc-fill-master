@@ -1,0 +1,57 @@
+[project]
+name = "doc-fill-master"
+version = "0.2.1"
+description = "A desktop application for filling placeholders in .docx templates and exporting them to .pdf format."
+readme = "README.md"
+keywords = ["docx", "pdf", "template", "desktop", "automation"]
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "docx2pdf>=0.1.8",
+    "num2words>=0.5.14",
+    "python-docx>=1.1.2",
+    "wxpython>=4.2.2",
+]
+
+[dependency-groups]
+dev = [
+    "babel>=2.17.0",
+    "mypy>=1.15.0",
+    "pyinstaller>=6.12.0",
+    "ruff>=0.11.4",
+]
+
+[tool.doc_fill_master]
+language = "en"
+logging_level = "INFO"
+logging_to_file = false
+logging_file_name = "app.log"
+logging_file_dir = "."
+data_dir = "./data"
+data_name = "data.csv"
+doc_templates_dir = "./templates"
+doc_templates_files = [
+    ["Invoice", "invoice.docx", "Invoice №"],
+    ["Letter", "letter.docx", "Letter №"],
+]
+pdf_dir = "./export"
+pdf_name_mask = "{DOC_TEMPLATE_PREFIX} {DOC_NUM}.pdf"
+date_year_min = 2020
+date_year_max = 2025
+currency_pluralize = ["$", "$", "$"]
+show_messages = false
+finish_after_success = false
+
+[tool.ruff]
+src = ["doc_fill_master"]
+line-length = 79
+builtins = ["_"]
+
+[tool.mypy]
+mypy_path = "doc_fill_master"
+check_untyped_defs = false
+ignore_missing_imports = true
+disallow_incomplete_defs = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+exclude = ".venv|test_*"
