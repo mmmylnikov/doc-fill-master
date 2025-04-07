@@ -1,0 +1,355 @@
+# Russian translations for doc-fill-master.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the doc-fill-master
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: doc-fill-master 0.2.1\n"
+"Report-Msgid-Bugs-To: <not used>\n"
+"POT-Creation-Date: 2025-04-07 14:17+0500\n"
+"PO-Revision-Date: 2025-04-07 14:20+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: doc_fill_master/app.py:86 doc_fill_master/app.py:131
+#, python-brace-format
+msgid "File \"{path}\" not found"
+msgstr "Файл \"{path}\" не найден"
+
+#: doc_fill_master/app.py:89 doc_fill_master/app.py:97
+#: doc_fill_master/app.py:134 doc_fill_master/app.py:160
+#: doc_fill_master/app.py:211 doc_fill_master/app.py:424
+#: doc_fill_master/app.py:447 doc_fill_master/app.py:467
+#: doc_fill_master/app.py:485 doc_fill_master/app.py:499
+#: doc_fill_master/app.py:516 doc_fill_master/app.py:538
+msgid "Error"
+msgstr "Ошибка"
+
+#: doc_fill_master/app.py:94
+#, python-brace-format
+msgid "Directory \"{path}\" not found"
+msgstr "Папка \"{path}\" не найдена"
+
+#: doc_fill_master/app.py:118
+msgid "App variables ready"
+msgstr "Переменные приложения готовы"
+
+#: doc_fill_master/app.py:146
+#, python-brace-format
+msgid "Templates loaded: {doc_templates}"
+msgstr "Шаблоны загружены: {doc_templates}"
+
+#: doc_fill_master/app.py:163
+#, python-brace-format
+msgid "Invalid headers: {e}"
+msgstr "Неверные заголовки: {e}"
+
+#: doc_fill_master/app.py:168
+#, python-brace-format
+msgid "Executors is loaded: {count}"
+msgstr "Исполнители загружены: {count}"
+
+#: doc_fill_master/app.py:179 doc_fill_master/app.py:228
+#: doc_fill_master/app.py:246
+msgid "About"
+msgstr "О программе"
+
+#: doc_fill_master/app.py:192 doc_fill_master/app.py:238
+msgid "Replaceable fields"
+msgstr "Заменяемые поля"
+
+#: doc_fill_master/app.py:210
+#, python-brace-format
+msgid "File {filename} not found"
+msgstr "Файл {filename} не найден"
+
+#: doc_fill_master/app.py:216 doc_fill_master/app.py:231
+msgid "License"
+msgstr "Лицензия"
+
+#: doc_fill_master/app.py:219 doc_fill_master/app.py:234
+msgid "Notice"
+msgstr "Условия использования"
+
+#: doc_fill_master/app.py:222
+msgid "UI initialized"
+msgstr "UI инициализирован"
+
+#: doc_fill_master/app.py:254
+msgid "Document type:"
+msgstr "Тип документа:"
+
+#: doc_fill_master/app.py:260
+msgid "Document type help"
+msgstr "опциональный комментарий"
+
+#: doc_fill_master/app.py:264
+msgid "Document type - added"
+msgstr "Тип документа - добавлен"
+
+#: doc_fill_master/app.py:267
+msgid "Date:"
+msgstr "Дата:"
+
+#: doc_fill_master/app.py:273
+msgid "january"
+msgstr "января"
+
+#: doc_fill_master/app.py:274
+msgid "february"
+msgstr "февраля"
+
+#: doc_fill_master/app.py:275
+msgid "march"
+msgstr "марта"
+
+#: doc_fill_master/app.py:276
+msgid "april"
+msgstr "апреля"
+
+#: doc_fill_master/app.py:277
+msgid "may"
+msgstr "мая"
+
+#: doc_fill_master/app.py:278
+msgid "june"
+msgstr "июня"
+
+#: doc_fill_master/app.py:279
+msgid "july"
+msgstr "июля"
+
+#: doc_fill_master/app.py:280
+msgid "august"
+msgstr "августа"
+
+#: doc_fill_master/app.py:281
+msgid "september"
+msgstr "сентября"
+
+#: doc_fill_master/app.py:282
+msgid "october"
+msgstr "октября"
+
+#: doc_fill_master/app.py:283
+msgid "november"
+msgstr "ноября"
+
+#: doc_fill_master/app.py:284
+msgid "december"
+msgstr "декабря"
+
+#: doc_fill_master/app.py:306
+msgid "Date - added"
+msgstr "Дата - добавлена"
+
+#: doc_fill_master/app.py:308
+msgid "Executor:"
+msgstr "Исполнитель:"
+
+#: doc_fill_master/app.py:314
+msgid "Executor - added"
+msgstr "Исполнитель - добавлен"
+
+#: doc_fill_master/app.py:317
+msgid "Document number:"
+msgstr "Номер документа:"
+
+#: doc_fill_master/app.py:325
+msgid "only numbers allowed"
+msgstr "только числа разрешены"
+
+#: doc_fill_master/app.py:330
+msgid "Document number - added"
+msgstr "Номер документа - добавлен"
+
+#: doc_fill_master/app.py:332
+msgid "Amount:"
+msgstr "Сумма:"
+
+#: doc_fill_master/app.py:336
+msgid "Amount - added"
+msgstr "Сумма - добавлена"
+
+#: doc_fill_master/app.py:338
+msgid "Create PDF"
+msgstr "Создать PDF"
+
+#: doc_fill_master/app.py:341
+msgid "Button created"
+msgstr "Кнопка создана"
+
+#: doc_fill_master/app.py:344
+msgid "UI created"
+msgstr "UI создан"
+
+#: doc_fill_master/app.py:364
+msgid "Information"
+msgstr "Информация"
+
+#: doc_fill_master/app.py:389
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."   
+
+#: doc_fill_master/app.py:395
+msgid "Converting document"
+msgstr "Конвертация документа"
+
+#: doc_fill_master/app.py:406
+msgid "Conversion successful"
+msgstr "Конвертация выполнена"
+
+#: doc_fill_master/app.py:407
+#, python-brace-format
+msgid "File created: {file_name}"
+msgstr "Файл создан: {file_name}"
+
+#: doc_fill_master/app.py:410
+msgid "Success"
+msgstr "Успех"
+
+#: doc_fill_master/app.py:413
+#, python-brace-format
+msgid "Document created: {path}"
+msgstr "Документ создан: {path}"
+
+#: doc_fill_master/app.py:418
+msgid "Application will be closed"
+msgstr "Приложение будет закрыто"
+
+#: doc_fill_master/app.py:422
+msgid "Conversion failed"
+msgstr "конвертация не удалась"
+
+#: doc_fill_master/app.py:423
+msgid "File not created"
+msgstr "Файл не создан"
+
+#: doc_fill_master/app.py:429
+msgid "Validating fields"
+msgstr "Валидация полей"
+
+#: doc_fill_master/app.py:444
+msgid "Document template not selected"
+msgstr "Шаблон документа не выбран"
+
+#: doc_fill_master/app.py:464
+msgid "Date not selected"
+msgstr "Дата не выбрана"
+
+#: doc_fill_master/app.py:480
+#, python-brace-format
+msgid "There are only {count} days in this month."
+msgstr "Только {count} дней в этом месяце."
+
+#: doc_fill_master/app.py:496
+msgid "Executor not selected"
+msgstr "Исполнитель не выбран"
+
+#: doc_fill_master/app.py:513
+msgid "Document number not entered or entered incorrectly"
+msgstr "Номер документа не введен или введен неправильно"
+
+#: doc_fill_master/app.py:535
+msgid "Amount not entered or entered incorrectly"
+msgstr "Сумма не введена или введена неправильно"
+
+#: doc_fill_master/app.py:544
+msgid "Validation passed"
+msgstr "Валидация прошла успешно"
+
+#: doc_fill_master/app.py:553
+msgid "Fields to replaced is ready"
+msgstr "Поля для замены готовы"
+
+#: doc_fill_master/app.py:559
+msgid "Application started"
+msgstr "Приложение запущено"
+
+#: doc_fill_master/app.py:564
+msgid "Application closed"
+msgstr "Приложение закрыто"
+
+#: doc_fill_master/config.py:76
+msgid "tool.doc_fill_master not found in pyproject.toml"
+msgstr "директива tool.doc_fill_master не найдена в pyproject.toml"
+
+#: doc_fill_master/config.py:80
+msgid "project not found in pyproject.toml"
+msgstr "директива project не найдена в pyproject.toml"
+
+#: doc_fill_master/logger.py:54
+msgid "Logger initialized"
+msgstr "Логгер инициализирован"
+
+#: doc_fill_master/utils.py:21
+#, python-brace-format
+msgid "Words replaced in run: {text}"
+msgstr "Замена слов в строке: {text}"
+
+#: doc_fill_master/utils.py:26
+#, python-brace-format
+msgid "> Word \"{old_word}\" replaced with \"{new_word}\""
+msgstr "Слово \"{old_word}\" заменено на \"{new_word}\""
+
+#: doc_fill_master/utils.py:75
+msgid "Words replaced in paragraphs"
+msgstr "Замена слов в параграфах"
+
+#: doc_fill_master/utils.py:81
+msgid "Words replaced in tables"
+msgstr "Замена слов в таблицах"
+
+#: doc_fill_master/utils.py:94
+#, python-brace-format
+msgid "File {path} created"
+msgstr "Файл {path} создан"
+
+#: doc_fill_master/utils.py:96
+msgid "Start words replace in document"
+msgstr "Старт замены слов в документе"
+
+#: doc_fill_master/utils.py:102
+msgid "End words replace in document"
+msgstr "Завершение замены слов в документе"
+
+#: doc_fill_master/utils.py:104
+msgid "Start document convert"
+msgstr "Старт конвертации документа"
+
+#: doc_fill_master/utils.py:114
+msgid "End document convert"
+msgstr "Завершение конвертации документа"
+
+#: doc_fill_master/utils.py:117
+#, python-brace-format
+msgid "File {path} deleted"
+msgstr "Файл {path} удален"
+
+#: doc_fill_master/utils.py:119
+#, python-brace-format
+msgid "Document converted to {path}"
+msgstr "Документ конвертирован в {path}"
+
+#: doc_fill_master/utils.py:128
+msgid "Currency pluralize must be a list with 3 elements"
+msgstr "Фразы для вальюты должны быть списком из трех элементов"
+
+#: doc_fill_master/utils.py:150
+msgid "Headers not found"
+msgstr "заголовки не найдены"
+
+#: doc_fill_master/utils.py:155
+#, python-brace-format
+msgid "Wrong headers: {headers}"
+msgstr "Неверные заголовки: {headers}"
+

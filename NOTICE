@@ -1,0 +1,45 @@
+doc-fill-master
+
+Copyright (c) 2025 doc-fill-master
+Distributed under the MIT License. See the LICENSE file for the full license text.
+
+This application uses the following open source libraries:
+
+docx2pdf (MIT License)
+https://github.com/AlJohri/docx2pdf
+https://github.com/AlJohri/docx2pdf/blob/master/LICENSE
+
+num2words (LGPL-2.1 license)
+https://github.com/savoirfairelinux/num2words
+https://github.com/savoirfairelinux/num2words/blob/master/COPYING
+
+python-docx (MIT License)
+https://github.com/python-openxml/python-docx
+https://github.com/python-openxml/python-docx/blob/master/LICENSE
+
+wxPython (wxWindows Library License)
+https://www.wxpython.org/
+https://wxpython.org/pages/license/index.html
+
+---
+
+In addition to runtime dependencies, this application includes the following development dependencies for building, testing, and maintaining the project:
+
+babel (BSD 3-Clause)  
+https://github.com/python-babel/babel
+https://github.com/python-babel/babel/blob/master/LICENSE
+
+mypy (MIT)  
+https://github.com/python/mypy  
+https://github.com/python/mypy/blob/master/LICENSE 
+
+pyinstaller (GPL 2.0 License)  
+https://pyinstaller.org/en/stable/
+https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt
+
+ruff (MIT)  
+https://github.com/astral-sh/ruff
+https://github.com/astral-sh/ruff/blob/main/LICENSE
+
+
+For detailed licensing information, see the LICENSE files provided in each dependency's repository or links above.
